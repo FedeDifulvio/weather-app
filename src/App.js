@@ -9,6 +9,7 @@ function App() {
 
   return (
     <Router>
+    <h1>holi</h1>
       <Switch>
         <Route exact path="/">
           <Principal/>
