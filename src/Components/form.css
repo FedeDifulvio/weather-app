@@ -1,0 +1,58 @@
+.containerForm{
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : center;
+    align-items: center; 
+    flex-direction: column; 
+    margin-top: 100px; 
+} 
+
+ .cardForm{
+    background:#FEE1EB ;
+    width: 350px; 
+    height: 340px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    text-align: left;
+    transition: all 0.25s;
+} 
+
+.title{
+    margin-top:20px;
+    font-family: sans-serif;
+    color: #6a6a6a;
+    margin-left: 15px;
+}
+
+.input{
+    width:50%;
+    border-radius: 6px;
+    border : 1px solid #FDDEE9;
+    font-size:15px;
+    padding: 6px;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    margin-left: 15px;
+    
+} 
+
+.button{
+    background-color: #FE74A2 ;
+    color: white;
+    width: 130px;
+    display: block;
+    padding: 6px;
+    margin-top: 40px ;
+    margin-left: 15px;
+    border-radius: 6px ;
+    border: none;
+    font-size: 16px;
+} 
+
+.button:hover{
+    background-color:#f53575;
+    font-size: 17px;
+}
